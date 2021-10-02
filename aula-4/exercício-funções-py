@@ -1,0 +1,82 @@
+def mostralinha():
+  print("---------------------------------------------------------------------")
+
+
+def abertura():
+  mostralinha()
+  print("Exercício Pensamento Computacional")
+  mostralinha()
+
+
+def pergunta_numero():
+  numero = input("Escolha um número inteiro de 1 a 10 : ")
+  numero_convertido = float(numero)
+  return numero_convertido
+
+# BISCOITO DA SORTE: Escolha um número de 1 a 10 e receba a mensagem do dia!
+
+print("BISCOITO DA SORTE: ")
+print(" ")
+numero = pergunta_numero()
+print(" ")
+if numero == 1:
+ print("Mensagem do dia: 'Acredite em milagres, mas não dependa deles' ")
+if numero == 2:
+  print("Mensagem do dia: 'O pessimista vê a dificuldade em cada oportunidade; O otimista vê a oportunidade em cada dificuldade.' ")
+if numero == 3:
+  print("Mensagem do dia: 'Todas as coisas são difíceis antes de se tornarem fáceis.' ")
+if numero == 4:
+  print("Mensagem do dia: 'Faça pequenas coisas hoje e coisas maiores lhe serão confiadas amanhã.' ")
+if numero == 5:
+ print("Mensagem do dia: 'Não importa o tamanho da montanha, ela não pode tapar o sol.' ")
+if numero == 6:
+  print("Mensagem do dia: 'Siga os bons e aprenda com eles.' ")
+if numero == 7:
+  print("Mensagem do dia: 'Pare de procurar eternamente; a felicidade está mesmo aqui ao seu lado.' ")
+if numero == 8:
+  print("Mensagem do dia: 'Espere pelo mais sábio dos conselhos: o tempo.' ")
+if numero == 9:
+  print("Mensagem do dia: 'A adversidade desperta em nós capacidades que, em circunstâncias favoráveis, teriam ficado adormecidas.' ")
+if numero == 10:
+  print("Mensagem do dia: 'A maior barreira para o sucesso é o medo do fracasso.' ")
+  print("_")
+  
+# AVALIAÇÃO DO MASTER JORNALISMO DE DADOS, AUTOMAÇÃO E STORYTELLING: escolha uma nota de 1 a 10
+  
+mostralinha()
+print("AVALIE AS AULAS DO MASTER JORNALISMO DE DADOS, AUTOMAÇÃO E STORYTELLING:")
+mostralinha()
+
+
+print(" ")
+print("Qual nota você dá para a aula de OSINT?")
+nota1 = pergunta_numero()
+
+
+print(" ")
+print("Qual nota você dá para a aula de Pensamento Computacional?")
+nota2 = pergunta_numero()
+
+
+print(" ")
+print("Qual nota você dá para a aula de Tranparência e Ética?")
+nota3 = pergunta_numero()
+
+
+print(" ")
+print("Qual nota você dá para a aula de Análise de Dados?")
+nota4 = pergunta_numero()
+
+
+def media(a,b,c,d):
+  media = (a+b+c+d)/4
+  return media
+media = media(nota1,nota2,nota3,nota4)
+print(" ")
+print(f"Você avaliou o Master com a média de {media}")
+
+
+if media <= 6:
+  print("Você não está gostando muito do curso, né? Fale com a coordenação em que podemos melhorar 😓")
+else:
+  print("Opa! É gratificante saber que você está gostando do nosso Master. Vamo que vamo! 😍")
