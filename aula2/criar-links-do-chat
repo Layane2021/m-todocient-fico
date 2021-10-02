@@ -1,0 +1,114 @@
+# Seleção dos links do chat de todas as aulas: 
+
+arquivo_1 = open("GMT20210726-212633_Recording.txt")
+for linha_1 in arquivo_1:
+  link = ".com"
+  if link in linha_1: 
+    partes = (linha_1.strip().split("\t"))
+    if len(partes) == 3:
+      print(partes[2])  
+
+arquivo_2 = open("GMT20210728-223542_Recording.txt")
+for linha_2 in arquivo_2:
+   link = ".com"
+   if link in linha_2:
+     partes = (linha_2.strip().split("\t"))
+     if len(partes) == 3:
+      print(partes[2])
+
+arquivo_3 = open("GMT20210802-212614_Recording.txt")
+for linha_3 in arquivo_3:
+   link = ".com"
+   if link in linha_3:
+     partes = (linha_3.strip().split("\t"))
+     if len(partes) == 3:
+      print(partes[2])
+
+arquivo_4 = open("GMT20210804-222232_Recording.txt")
+for linha_4 in arquivo_4:
+   link = ".com"
+   if link in linha_4:
+     partes = (linha_4.strip().split("\t"))
+     if len(partes) == 3:
+      print(partes[2])
+
+arquivo_5 = open("GMT20210806-222707_Recording.txt")
+for linha_5 in arquivo_5:
+   link = ".com"
+   if link in linha_5:
+     partes = (linha_5.strip().split("\t"))
+     if len(partes) == 3:
+      print(partes[2])
+
+arquivo_6 = open("GMT20210809-212840_Recording.txt")
+for linha_6 in arquivo_6:
+    link= ".com"
+    if link in linha_6:
+      partes = (linha_6.strip().split("\t"))
+      if len(partes) == 3:
+        print(partes[2])
+
+arquivo_7 = open("GMT20210809-213308_Recording.txt")
+for linha_7 in arquivo_7:
+    link = ".com"
+    if link in linha_7:
+      partes = (linha_7.strip().split("\t"))
+      if len(partes) == 3:
+        print(partes[2])
+        
+arquivo_8 = open("GMT20210809-234715_Recording.txt")
+for linha_8 in arquivo_8:
+    link = ".com"
+    if link in linha_8:
+      partes = (linha_8.strip().split("\t"))
+      if len(partes) == 3:
+        print(partes[2])
+
+arquivo_9 = open("GMT20210811-223050_Recording.txt")
+for linha_9 in arquivo_9:
+    link = ".com"
+    if link in linha_9:
+      partes = (linha_9.strip().split("\t"))
+      if len(partes) == 3:
+        print(partes[2])
+
+arquivo_10 = open("GMT20210813-222825_Recording.txt")
+for linha_10 in arquivo_10:
+    link = ".com"
+    if link in linha_10:
+      partes = (linha_10.strip().split("\t"))
+      if len(partes) == 3:
+        print(partes[2])
+
+arquivo_11 = open("GMT20210816-212317_Recording.txt")
+for linha_11 in arquivo_11:
+    link = ".com"
+    if link in linha_11:
+      partes = (linha_11.strip().split("\t"))
+      if len(partes) == 3:
+        print(partes[2])
+
+arquivo_12 = open("GMT20210816-234945_Recording.txt")
+for linha_12 in arquivo_12:
+    link = ".com"
+    if link in linha_12:
+      partes = (linha_12.strip().split("\t"))
+      if len(partes) == 3:
+        print(partes[2])
+
+
+arquivo_13 = open("GMT20210818-222332_Recording.txt")
+for linha_13 in arquivo_13:
+    link = ".com"
+    if link in linha_13:
+      partes = (linha_13.strip().split("\t"))
+      if len(partes) == 3:
+        print(partes[2])
+
+arquivo_14 = open("GMT20210820-222253_Recording.txt")
+for linha_14 in arquivo_14:
+    link = ".com"
+    if link in linha_14:
+      partes = (linha_14.strip().split("\t"))
+      if len(partes) == 3:
+        print(partes[2])
