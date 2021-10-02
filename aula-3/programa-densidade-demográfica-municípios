@@ -1,0 +1,15 @@
+# Programa que percorre todos os registros (linhas, com exceção do cabeçalho) do arquivo:
+
+import csv
+arquivo = open("brasil.csv")
+leitor = csv.reader(arquivo)
+for registro in leitor: 
+  if registro[0] != "estado":
+    coluna_1 = registro[0]
+    coluna_2 = registro[1]
+    coluna_3 = registro[2]
+    coluna_4 = registro[3]
+    dicio = {"estado":coluna_1,"município":coluna_2,"habitantes":int(coluna_3),"área":float(coluna_4)}
+    #print(dicio)
+    densidade = dicio["habitantes"]/dicio["área"]
+    print(f"O município {dicio['município']}/{dicio['estado']} tem densidade demográfica de {densidade} hab/km²")
